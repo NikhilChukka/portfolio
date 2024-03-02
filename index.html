@@ -34,9 +34,33 @@
                 <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
             </div>
         </div>
-        
 
     </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/nikh1.png" alt="nikhil chukka profile picture"/>
+        </div>
+        <div class="section__text">
+            <p class="section__text_p1">Hello, I'm</p>
+            <h1 class="title">Nikhil Chukka</h1>
+            <p class="section__text_p2">Software Development Engineer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" 
+                onclick="window.open('./assets/resumeUpTA.pdf')">
+                Download Resume</button>
+                <button class="btn btn-color-1" 
+                onclick="location.href='./#contact'">
+                Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="linkedin profile" 
+                class="icon" onclick="location.href='https://www.linkedin.com/in/nikhil-chukka-425847129/'" />
+
+                <img src="./assets/github.png" alt="github profile" 
+                class="icon" onclick="location.href='https://github.com/NikhilChukka'" />
+            </div>
+        </div>
+    </section>
     <script src="script.js"></script>
 </body>
 </html>
